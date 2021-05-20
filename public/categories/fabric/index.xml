@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fabric on sym的博客</title>
+    <link>https://shenyimingdada.github.io/categories/fabric/</link>
+    <description>Recent content in fabric on sym的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    
+	<atom:link href="https://shenyimingdada.github.io/categories/fabric/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fabric 中动态加入组织</title>
+      <link>https://shenyimingdada.github.io/%E4%BD%BF%E7%94%A8Chaincode%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E8%B0%83%E8%AF%95%E9%93%BE%E7%A0%81.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shenyimingdada.github.io/%E4%BD%BF%E7%94%A8Chaincode%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E8%B0%83%E8%AF%95%E9%93%BE%E7%A0%81.html</guid>
+      <description>注：测试 Fabric 版本为 1.4.2；测试网络配置为first-network 1. 启动测试网络 首先我们需要进入first-network文件夹下，启动测试网络： 1 2 3 4 5 # 进入 first-network 文件夹 cd /opt/gopath/src/github.com/hyperledger/fabric/scripts/fabric-samples/first-network/ # 启动网络 ./byfn.sh up 2. 为新组织生成证书 其实first-network直接提供了添加新组织的脚本和配置文件，这里</description>
+    </item>
+    
+    <item>
+      <title>使用 Chaincode 开发模式调试链码</title>
+      <link>https://shenyimingdada.github.io/%E4%BD%BF%E7%94%A8Chaincode%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E8%B0%83%E8%AF%95%E9%93%BE%E7%A0%81.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shenyimingdada.github.io/%E4%BD%BF%E7%94%A8Chaincode%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E8%B0%83%E8%AF%95%E9%93%BE%E7%A0%81.html</guid>
+      <description>Fabirc 提供了链码的开发模式，使链码在开发阶段可以进行非常快速的开发、构建、运行、调试。具体步骤如下： 将已经编写好的chaincode 拷贝到 /opt/gopath/src/github.com/hyperledger/fabric/scripts/fabric-samples/chai</description>
+    </item>
+    
+    <item>
+      <title>手动启动 Fabric 1.4.2 并解析全过程</title>
+      <link>https://shenyimingdada.github.io/%E4%BD%BF%E7%94%A8Chaincode%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E8%B0%83%E8%AF%95%E9%93%BE%E7%A0%81.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shenyimingdada.github.io/%E4%BD%BF%E7%94%A8Chaincode%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E8%B0%83%E8%AF%95%E9%93%BE%E7%A0%81.html</guid>
+      <description>注：以基于docker容器的方式启动；测试网络为 first-network，所以各种配置文件可以不用创建和修改即可使用；网络模式为 solo 1. 生成组织关系和身份证书 Fabric 项目提供了 cryptogen 工具（基于 crypto 标准库）实现自动化生成各个组织、节点和用户成员的身份证书文件。这一过程需要依赖于crypto-co</description>
+    </item>
+    
+  </channel>
+</rss>
