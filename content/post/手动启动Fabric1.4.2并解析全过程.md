@@ -1,4 +1,12 @@
-# 手动启动 Fabric 1.4.2 并解析全过程
+
++++
+title="手动启动 Fabric 1.4.2 并解析全过程"
+tags=["golang","fabric"]
+categories=["Golang","fabric"]
+date="2021-5-19T15:00:00+08:00"
+url="/使用Chaincode开发模式调试链码.html"
+toc=true
++++
 
 > **注**：以基于`docker`容器的方式启动；测试网络为 `first-network`，所以各种配置文件可以不用创建和修改即可使用；网络模式为 `solo`
 
