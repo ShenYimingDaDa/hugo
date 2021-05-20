@@ -182,7 +182,7 @@ type: "search"
 
 `params.ads`是一个数组，所以我们可以自定义很多广告。如果`img`存在，则优先使用图片广告,`title`表示鼠标悬停在广告链接时，显示的文本。
 
-具体效果参考 [http://www.flysnow.org/](http://www.flysnow.org/)
+具体效果参考 [http://shenyimingdada.github.io/](http://shenyimingdada.github.io/)
 
 #### 添加GA分析统计
 

@@ -117,7 +117,7 @@ Now ,run `hugo server` and try local search.
   img = "https://img.alicdn.com/tfs/TB1aDXhXpzqK1RjSZFvXXcB7VXa-259-194.jpg"
 ```
 
-Ads Preview [http://www.flysnow.org/](http://www.flysnow.org/)
+Ads Preview [http://shenyimingdada.github.io/](http://shenyimingdada.github.io/)
 
 #### Google Analytics
 
