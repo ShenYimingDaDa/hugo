@@ -1,5 +1,11 @@
-# Fabric 中动态加入组织
-
++++
+title="Fabric 中动态加入组织"
+tags=["golang","fabric"]
+categories=["Golang","fabric"]
+date="2021-5-19T15:00:00+08:00"
+url="/使用Chaincode开发模式调试链码.html"
+toc=true
++++
 > 注：测试 `Fabric` 版本为 `1.4.2`；测试网络配置为`first-network`
 
 ## 1. 启动测试网络
