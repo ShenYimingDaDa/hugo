@@ -1,4 +1,4 @@
-baseURL = "https://www.flysnow.org"
+baseUrl="https://shenyimingdada.github.io/"
 languageCode = "zh-CN"
 title = "sym的博客"
 theme = "maupassant"
