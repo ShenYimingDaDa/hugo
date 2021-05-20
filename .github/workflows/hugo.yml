@@ -18,7 +18,7 @@ jobs:
           hugo-version: 'latest'
           extended: true
       - name: Build
-        run: hugo -D
+        run:  hugo --theme=maupassant --baseUrl="https://shenyimingdada.github.io/"
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.5.1
         env:
