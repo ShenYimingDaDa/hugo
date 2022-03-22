@@ -1,0 +1,19 @@
+<!--
+ * @Author: [sym38324@gmail.com]
+ * @Date: 2022-01-22 16:44:28
+ * @LastEditors: [ShenYiming]
+ * @LastEditTime: 2022-03-12 08:49:58
+ * @Description: 
+-->
+<!-- Please don't remove the information of theme makers. -->
+{{ i18n "hugo_theme" }} <a href="https://gohugo.io/getting-started/">HUGO</a>
+<br>
+<!-- {{ i18n "ported_from" }} <a href="" rel="noreferrer noopener">Makito</a>'s <a href=""  rel="noreferrer noopener">Journal.</a> <br>
+<br> -->
+<!-- Because this project is under MIT licence. -->
+&copy;
+	{{ if .Site.Copyright }}
+	{{ .Site.Copyright }}
+	{{ else }}
+	{{.Site.Home.Date.Year}} {{.Site.Title}}
+	{{ end }}

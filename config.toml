@@ -1,93 +1,71 @@
-baseUrl="https://shenyimingdada.github.io/"
+baseURL = "https://ShenYimingDaDa.github.io"
+DefaultContentLanguage = "zh-hant" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "zh-hant" # Language code for this content, supports: en, fr, zh, zh-hant
+title = "摆人日寄"
+copyright = "This is a customized copyright."
 
-languageCode = "zh-CN"
-title = "sym的博客"
-theme = "maupassant"
-googleAnalytics = ""  # UA-XXXXXXXX-X
+# googleAnalytics = "UA-123-45"
+[markup]
 
-## 保持分类的原始名字（false会做转小写处理）
-preserveTaxonomyNames = true
-## 是否禁止URL Path转小写
-disablePathToLower = true
 
-hasCJKLanguage = true
-summaryLength = 140
+[markup.goldmark]
+    [markup.goldmark.renderer]
+        unsafe = true
 
-disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
-
-[author]
-  name = "sym"
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = "perldoc"
+tabWidth = 4
 
 [params]
-  author = "sym"
-  subtitle = "什么奇怪东西都有的博客"
-  keywords = "golang,python,钓鱼,fabric"
-  description = "互联网冲浪"
-  busuanzi = true #启用不算子网页统计
-  googleAd = ""  #ca-pub-xxxxxxxxxxxxxx
-  localSearch = true # 启用本地搜索
+subtitle = "啊对对对。"
+enableGitalk = false
+favicon = "static/images/bird.jpg"
+enableReadingTime = true
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "My Blog" # will set 'og:site_name'
+description = "My HomePage Description" # will set 'og:description'
 
-  # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
-  customCSS = ['douban.css', 'other.css']
-  # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = ['douban.js']
-  # if ['custom.js'], load '/static/js/custom.js' file
+[params.gitalk]
+owner = "ShenYimin"
+repo = "BlogComment"
+client_id = "87b383f0bc03d41e07fe"
+client_secret = "ebd8d74511e37d50021fa2decc3d65f19cbe5445"
 
-  # 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
-  toc = true  # 是否开启目录
+[taxonomies]
+tag = "tags"
+category = "categories"
 
-## 友情链接，可以多个
+[params.utterances]
+repo = "your repo"
+term = "[ENTER TERM HERE]"
+label = "your label"
+theme = "github-light"
 
-[[params.links]]
-  title = "sym的博客"
-  name = "sym的博客"
-  url = "https://shenyimingdada.github.io/"
+[[menu.main]]
+url = "/categories"
+name = "分类"
+weight = 2
 
+[[menu.main]]
+url = "/tags"
+name = "标签"
+weight = 3
 
+[[menu.main]]
+url = "/posts"
+name = "归档"
+weight = 1
 
-## 侧边栏广告位
-# [[params.ads]]
-#   title = "【2019双12】ALL IN CLoud 低至1折"
-#   url = "https://www.aliyun.com/minisite/goods?userCode=jdg9oj97&share_source=copy_link"
-#   img = "https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg"
-
-
-## 配置 utteranc评论,教程参考 https://utteranc.es/
-[params.utteranc]
-  enable = true
-  repo = "your github repo" ##换成自己得
-  issueTerm = "pathname"
-  theme = "github-light"
-
-## 开启版权声明，协议名字和链接都可以换
-[params.cc]
-    name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
-    link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
-
-## 配置代码高亮
-[markup]
-  [markup.highlight]
-    lineNos = true
-    style = "github"
-
-## 配置网站菜单
-
-[menu]
-
-  # [[menu.main]]
-  #   identifier = "tools"
-  #   name = "工具"
-  #   url = "/tools/"
-  #   weight = 2
-
-  [[menu.main]]
-    identifier = "archives"
-    name = "归档"
-    url = "/archives/"
-    weight = 3
-
-  [[menu.main]]
-    identifier = "about"
-    name = "关于"
-    url = "/about/"
-    weight = 4
+[[menu.main]]
+url = "/index.xml"
+name = "RSS"
+weight = 4
