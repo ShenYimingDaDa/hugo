@@ -25,7 +25,7 @@ tabWidth = 4
 
 [params]
 subtitle = "啊对对对。"
-enableGitalk = false
+enableGitalk = true
 favicon = "static/images/bird.jpg"
 enableReadingTime = true
 # Twitter Card and Open Graph settings
@@ -35,10 +35,10 @@ title = "My Blog" # will set 'og:site_name'
 description = "My HomePage Description" # will set 'og:description'
 
 [params.gitalk]
-owner = "ShenYimin"
+owner = "ShenYimingDaDa"
 repo = "BlogComment"
-client_id = "87b383f0bc03d41e07fe"
-client_secret = "ebd8d74511e37d50021fa2decc3d65f19cbe5445"
+client_id = "cf186cb502890c2898d0"
+client_secret = "169efbb867320fcaa4078f26606f5a258549898f"
 
 [taxonomies]
 tag = "tags"
